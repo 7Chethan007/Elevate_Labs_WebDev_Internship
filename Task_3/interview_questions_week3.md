@@ -1,6 +1,5 @@
 ### 📄 `interview-prep.md` — Week 3: Express.js & REST API Interview Questions
 
-````markdown
 # 🧠 Week 3 – Express.js & REST API Interview Questions
 
 This document covers essential interview questions and answers related to REST APIs and Express.js based on the Book Management project.
