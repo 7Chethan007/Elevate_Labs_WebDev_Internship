@@ -168,9 +168,7 @@ You'd:
 
 ---
 
-## ✅ Prepared Topics Summary
-
-### ✅ Prepared Topics Summary
+## ✅ Topics Summary
 
 1. **REST Architecture**: REST (Representational State Transfer) is an architectural style for designing APIs. It emphasizes stateless communication, resource identification via URLs, and standard HTTP methods like GET, POST, PUT, DELETE.
 
@@ -206,9 +204,5 @@ You'd:
 
 10. **Postman Testing Basics**: Postman is a tool for testing API endpoints. You can select HTTP methods, enter endpoint URLs, and inspect responses and status codes. For POST/PUT requests, you can send JSON payloads via the Body tab.
 
-🎯 These topics provide a solid foundation for discussing and demonstrating your Express.js and REST API knowledge during interviews.
 
 ---
-
-🎯 You are now ready to confidently discuss and demonstrate your Express + REST API project in interviews!
-````
