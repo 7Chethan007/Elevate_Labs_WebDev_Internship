@@ -58,16 +58,23 @@ The server will run at:
 Postman
 
 1. GET
-![GET Request Screenshot](../Postman_Screenshots/1_Initial_Get.png)
+   - Sends a GET request to fetch all books from the API. 
+![GET Request Screenshot](Postman_Screenshots/1_Initial_Get.png)
 
 2. POST
-![POST Request Screenshot](../Postman_Screenshots/2_Post.png)
-![Check POST Request](../Postman_Screenshots/3_CheckPost.png)
+   - Sends a POST request to add a new book to the collection. 
+![POST Request Screenshot](Postman_Screenshots/2_Post.png)
+   - Verifies that the new book has been added.
+![Check POST Request](Postman_Screenshots/3_CheckPost.png)
 
 3. PUT
-![PUT Request Screenshot](../Postman_Screenshots/4_Put.png)
-![Check PUT Request](../Postman_Screenshots/5_CheckPut.png)
+   - Sends a PUT request to update an existing book by its ID.  
+![PUT Request Screenshot](Postman_Screenshots/4_Put.png)
+   - Verifies that the book information has been updated. 
+![Check PUT Request](Postman_Screenshots/5_CheckPut.png)
 
 4. DELETE
-![DELETE Request Screenshot](../Postman_Screenshots/6_Delete.png)
-![Check DELETE Request](../Postman_Screenshots/7_CheckDelete.png)
+   - Sends a DELETE request to remove a book by its ID.  
+![DELETE Request Screenshot](Postman_Screenshots/6_Delete.png)
+   - Verifies that the book has been deleted.
+![Check DELETE Request](Postman_Screenshots/7_CheckDelete.png)
