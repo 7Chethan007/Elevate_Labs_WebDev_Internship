@@ -39,10 +39,10 @@ git clone https://github.com/your-username/book-api.git
 cd book-api
 npm install
 node index.js
-
+```
 
 OR
-
+```
 mkdir book-api
 cd book-api
 npm init -y
@@ -51,10 +51,10 @@ touch index.js
 - Copy the code in index.js and paste
 node index.js
 
+```
+
 The server will run at:
 👉 http://localhost:3000
-
-
 Postman
 
 1. GET
@@ -71,4 +71,3 @@ Postman
 4. DELETE
 ![DELETE Request Screenshot](../Postman_Screenshots/6_Delete.png)
 ![Check DELETE Request](../Postman_Screenshots/7_CheckDelete.png)
-```
