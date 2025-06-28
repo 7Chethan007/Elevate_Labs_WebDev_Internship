@@ -24,8 +24,11 @@ This project is a simple RESTful API built using **Node.js** and **Express** to 
 ## 📁 Project Structure
 
 book-api/
+
 ├── node_modules/
+
 ├── package.json
+
 └── index.js
 
 ---
