@@ -48,8 +48,13 @@ Convert a desktop-only webpage into a **responsive and flexible layout** compati
 ## 📂 Folder Structure
 
 ├── index.html
+
 ├── styles.css
+
 ├── assets/
+
 │ ├── desktop-view.png
+
 │ ├── mobile-view.png
+
 │ └── tablet-view.png
