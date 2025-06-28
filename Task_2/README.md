@@ -18,7 +18,13 @@ To understand core front-end concepts such as:
 
 ## 📁 Project Structure
 
-todo-app/ ├── index.html     # Structure of the app ├── style.css      # Styling with Flexbox & responsive design └── script.js      # Functionality with DOM and Events
+todo-app/ 
+
+├── index.html     # Structure of the app 
+
+├── style.css      # Styling with Flexbox & responsive design 
+
+└── script.js      # Functionality with DOM and Events
 
 ## 📌 Features
 
