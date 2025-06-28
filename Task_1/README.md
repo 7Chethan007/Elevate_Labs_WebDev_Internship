@@ -9,7 +9,11 @@ This project is a clean and responsive landing page built using **HTML5** and **
 - **Google Chrome** (Browser for Testing)  
   
 ## 📁 Project Structure  
-landing-page/ ├── index.html └── style.css  
+landing-page/ 
+
+├── index.html 
+
+└── style.css  
   
 ## 📌 Features  
   
