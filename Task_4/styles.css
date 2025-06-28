@@ -1,0 +1,147 @@
+:root {
+  --primary: #333;
+  --accent: #009688;
+  --bg: #f9f9f9;
+  --text: #222;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s ease;
+}
+
+header, footer {
+  background-color: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  transition: all 0.3s ease;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-menu li a:hover {
+  color: var(--accent);
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 45%;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+/* -------------------- Tablet View (<= 1024px) -------------------- */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .nav-menu {
+    gap: 1.2rem;
+  }
+
+  .card {
+    flex: 1 1 100%;
+    margin: 1rem 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* -------------------- Mobile View (<= 768px) -------------------- */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+
+  .nav-menu.active {
+    max-height: 200px;
+    opacity: 1;
+    margin-top: 1rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  body {
+    font-size: 0.95rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+}
