@@ -6,8 +6,7 @@ Welcome to my personal portfolio website, hosted using **GitHub Pages**. This we
 
 ## 📌 Live Demo
 
-🌍 [https://<yourusername>.github.io](https://<yourusername>.github.io)  
-> Replace `<yourusername>` with your actual GitHub username after deploying.
+🌍 [Website Link](https://7chethan007.github.io/Elevate_Labs_WebDev_Internship/)  
 
 ---
 
