@@ -1,47 +1,3 @@
-# Contact Form with Client-Side Validation
-
-A modern, responsive Contact Form built with HTML, CSS, and JavaScript, featuring real-time validation, visual feedback, and user-friendly design — all without using any external libraries.
-
----
-
-## 🚀 Live Demo
-🌐 [Click here to view the live form](#)
-
-
----
-
-## 🧰 Tech Stack
-
-- **HTML5**
-- **CSS3** (Flexbox, Transitions, Gradient Background)
-- **JavaScript** (Regex, DOM Manipulation, Event Handling)
-
----
-
-## 🎯 Features
-
-- ✨ Fully responsive layout
-- ✅ Client-side validation for:
-    - **Name:** Non-empty
-    - **Email:** Valid format using regex
-    - **Message:** Minimum 10 characters
-- 🛑 Prevents form submission if invalid
-- 📢 Displays inline error messages
-- ✅ Shows success message after valid submission
-- 🔒 No actual data is sent (client-side only)
-- ⚡️ Fast and lightweight (no libraries)
-
----
-
-## 📁 Folder Structure
-
-```
-contact-form/
-│
-├── index.html       # HTML form layout
-├── style.css        # Styling and layout
-└── script.js        # Validation and interaction logic
-```
 
 ---
 
@@ -55,22 +11,28 @@ contact-form/
 
 ## 🧠 How Validation Works
 
-- **Name:** Checked for non-empty value.
-- **Email:** Validated using regex:  
-    ```js
-    /^[\w.-]+@[\w.-]+\.\w+$/
-    ```
-- **Message:** Must be at least 10 characters long.
-- ❗ Errors are shown directly below each field.
-- ✅ If all fields are valid, a green success message is shown.
+- **Name Field:** Must be filled
+- **Email Field:** Regex used → `/^[\w.-]+@[\w.-]+\.\w+$/`
+- **Message Field:** Must be at least 10 characters
+- ❌ Errors shown inline under each input
+- ✅ Success message appears if all fields are valid
 
 ---
 
-## 🔬 Edge Cases Handled
+## 🔍 Edge Cases Handled
 
-- ❌ Empty name/email/message
-- ❌ Invalid email format (e.g., `john@com`, `@gmail.com`)
-- ❌ Short messages
-- ✅ Special characters supported in name/message
+- Empty name/email/message fields
+- Invalid email formats (`john@com`, `@gmail.com`, etc.)
+- Short messages under 10 characters
+- Supports special characters
+
+---
+
+## 📦 Deployment
+
+- Deployed using **GitHub Pages**
+- Branch: `main`
+- Folder: `/ (root)`
+- URL: [https://7chethan007.github.io/Elevate_Labs_WebDev_Internship_T6_ContactForm/](https://7chethan007.github.io/Elevate_Labs_WebDev_Internship_T6_ContactForm/)
 
 ---
