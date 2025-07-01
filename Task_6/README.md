@@ -1,3 +1,51 @@
+# 📬 Contact Form with Client-Side Validation
+
+A modern, responsive **Contact Form** built using HTML, CSS, and JavaScript. It features real-time client-side validation, clean design, and helpful feedback — all without using any external libraries or frameworks.
+
+---
+
+## 🚀 Live Demo
+
+🌐 [Click here to view the live form](https://7chethan007.github.io/Elevate_Labs_WebDev_Internship_T6_ContactForm/)
+
+> ✅ Hosted using **GitHub Pages** from the `main` branch of this repository.
+
+---
+
+## 🧰 Tech Stack
+
+- **HTML5** – Form structure
+- **CSS3** – Responsive layout using Flexbox, gradients, and transitions
+- **JavaScript** – Input validation, error handling, and DOM manipulation
+
+---
+
+## 🎯 Features
+
+- ✨ Fully responsive across devices
+- 🧠 Real-time client-side form validation
+- ✅ Validates:
+    - **Name:** Must not be empty
+    - **Email:** Must follow valid format using regex
+    - **Message:** Minimum 10 characters
+- 🚫 Prevents invalid submissions
+- 📢 Inline error messages for each field
+- 🟢 Displays success message upon valid submission
+- ⚡️ Lightweight and fast (No frameworks or libraries)
+
+---
+
+## 📁 Folder Structure
+
+```
+.
+├── index.html        # Form layout
+├── style.css         # Styling and design
+├── script.js         # Validation logic
+└── assets/
+        ├── preview-desktop.png
+        └── preview-mobile.png
+```
 
 ---
 
