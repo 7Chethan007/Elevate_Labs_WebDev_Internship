@@ -26,12 +26,12 @@ _(Replace with your actual GitHub Pages URL if different)_
 <sub>Weather card for a city (e.g., Dubai) searched by the user, not in the default list.</sub>
 ### Searched City Example: Hyderabad
 
-![Searched City Weather Card - Hyderabad](assets/searched-hyderabad.png)
+![Searched City Weather Card - Hyderabad](assets/searched-city1.png)
 <sub>Weather card for Hyderabad, searched by the user.</sub>
 
 ### Searched City Example: Coimbatore
 
-![Searched City Weather Card - Coimbatore](assets/searched-coimbatore.png)
+![Searched City Weather Card - Coimbatore](assets/searched-city2.png)
 <sub>Weather card for Coimbatore, searched by the user.</sub>
 ---
 
