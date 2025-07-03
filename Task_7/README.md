@@ -8,7 +8,7 @@ This project demonstrates advanced client-side skills including **async data fet
 
 ## 🚀 Live Demo
 
-🔗 [Click to View Deployed App](https://7chethan007.github.io/Task-7-WeatherApp/](https://7chethan007.github.io/Elevate_Labs_WebDev_Internship_T7_Fetch_API/))  
+🔗 [Click to View Deployed App](https://7chethan007.github.io/Elevate_Labs_WebDev_Internship_T7_Fetch_API/)    
 
 ---
 
