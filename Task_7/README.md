@@ -68,9 +68,6 @@ _(Replace with your actual GitHub Pages URL if different)_
 | Bengaluru    | ✅                 | 🌡️ 27°C, clear sky |
 | New York     | ✅                 | 🌡️ 18°C, overcast clouds |
 | Tokyo        | ✅                 | 🌡️ 25°C, light rain |
-| **Dubai**    | ❌ (searched later) | 🌡️ 32°C, sunny |
-
-> You can add screenshots or details for “Dubai” to show dynamic search behavior.
 
 ---
 
