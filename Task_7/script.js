@@ -1,4 +1,4 @@
-const API_KEY = "bdd77904922b3abf56f6e0ecc0f3b65b"; // Replace with your OpenWeatherMap API key
+const API_KEY = "YOU'R API"; // Replace with your OpenWeatherMap API key
 
 const defaultCities = ["Bengaluru", "Mumbai", "London", "New York", "Tokyo"];
 
