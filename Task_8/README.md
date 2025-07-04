@@ -8,7 +8,7 @@
 
 **Outcome:** Gain hands-on experience with Bootstrap for rapid UI development and responsive web layouts.
 
-# 🚀 [Live Demo](https://7chethan007.github.io/Elevate_Labs_WebDev_Internship_T8/)
+# 🚀 [Live Demo](https://7chethan007.github.io/Elevate_Labs_WebDev_Internship_T8/){:target="_blank"}
 
 # 📘 Chethan's Tech Blog
 
@@ -64,6 +64,3 @@ project-folder/
 
 ---
 
-## 🌐 Live Demo
-
-[https://yourusername.github.io/bootstrap-blog/](https://yourusername.github.io/bootstrap-blog/)
